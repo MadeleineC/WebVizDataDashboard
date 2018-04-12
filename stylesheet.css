@@ -9,14 +9,14 @@ body {
 }
 
 h1 {color:#39CCCC;
-	font-family: Arial;
+	font-family: "Times New Roman", Times, serif;
 
 }
 
 h2 {color:#39CCCC;
-	font-family: Arial;
+	font-family: "Times New Roman", Times, serif;
 	text-align: center;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 img {
@@ -56,5 +56,10 @@ hr {border: 0;
 }
 
 #summary {
-	margin-right: 10px
+	margin-right: 10px}
+
+@media (max-width: 700px) {
+  .navbar {
+    background: #39CCCC;
+  }
 }
